@@ -7,4 +7,6 @@ https://developers.arcgis.com/documentation/mapping-apis-and-services/security/t
 
 Once the key is generated, the user has to replace it in com/app/ApiKey.java
 
-The "User Perspective" Menu is linked to a local MySQL database. The features of the menu are available only if the user creates his own database. 
+The "User Perspective" Menu is linked to a local MySQL database.
+
+The features of the menu are available only if the user creates his own database and changes the its username and password in src/main/java/com/database/Database.java

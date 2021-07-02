@@ -22,7 +22,7 @@ public class Database {
         try {
             Connection conn =
                     DriverManager.getConnection("jdbc:mysql://localhost/DroneOperators?" +
-                            "user=AmaliaDucariu&password=123");
+                            "user=<username>&password=<password>");
 
             statement = conn.createStatement();
             resultSet1 = statement.executeQuery("SELECT Serial_Number FROM Operators");

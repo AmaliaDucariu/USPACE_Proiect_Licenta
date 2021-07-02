@@ -9,4 +9,4 @@ Once the key is generated, the user has to replace it in com/app/ApiKey.java
 
 The "User Perspective" Menu is linked to a local MySQL database.
 
-The features of the menu are available only if the user creates his own database and changes the <username> and <password> accordingly in src/main/java/com/database/Database.java
+The features of the menu are available only if the user creates his own database and changes the \<username\> and \<password\> accordingly in src/main/java/com/database/Database.java
